@@ -46,7 +46,7 @@ publishing {
     publications {
         maven(MavenPublication) {
             groupId = 'com.github.metehan-gokbel'
-            artifactId = 'pdfium-android'
+            artifactId = 'PdfiumAndroid'
             version = "1.0.1"
             pom {
                 description = 'First Android Library'

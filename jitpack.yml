@@ -4,4 +4,4 @@ before_install:
   - ./scripts/prepareJitpackEnvironment.sh
 install:
   - FILE="-Dfile=PdfiumAndroid-release.aar"
-  - mvn install:install-file $FILE -DgroupId=com.github.metehan-gokbel -DartifactId=pdfium-android -Dversion=1.0.1 -Dpackaging=aar -DgeneratePom=true
+  - mvn install:install-file $FILE -DgroupId=com.github.metehan-gokbel -DartifactId=PdfiumAndroid -Dversion=1.0.1 -Dpackaging=aar -DgeneratePom=true
